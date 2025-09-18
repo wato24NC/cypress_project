@@ -1,0 +1,43 @@
+# ===============================
+# Node.js
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Cypress
+# ===============================
+# Vidéos et captures générées automatiquement par Cypress
+cypress/videos/
+cypress/screenshots/
+
+# ===============================
+# Allure reports
+# ===============================
+# Le rapport HTML généré (trop lourd pour GitHub)
+allure-report/
+
+# Les résultats bruts peuvent être gardés si besoin
+# sinon décommente la ligne suivante pour les ignorer aussi
+# allure-results/
+
+# ===============================
+# Logs et caches
+# ===============================
+*.log
+.cache/
+
+# ===============================
+# OS spécifiques
+# ===============================
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# ===============================
+# IDE / Editeurs
+# ===============================
+.vscode/
+.idea/
+*.swp
