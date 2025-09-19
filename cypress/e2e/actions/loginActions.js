@@ -1,22 +1,14 @@
+const { verifyUrl } = require('../../support/helpers')
 const loginPage = require('../pages/loginPage')
 
 
 class LoginActions {
-    login(username, password) {
+    login(username, password, url) {
         if (username) loginPage.usernameField().type(username)
         if (password) loginPage.passwordField().type(password)
         loginPage.loginButton().click()
+        verifyUrl(url)
     }
-    verify_exist(element){
-        element.should('be.visible')
-    }
-    verify_url(url){
-        cy.url().should('eq', url)
-    }
-    verify_message(message,textMessage){
-        message.should('exist').and("contain", textMessage)
-    }
-
 
 }
 

@@ -1,8 +1,14 @@
 {
+
   "name": "Using fixtures to represent data",
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes",
+  "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
   "url_dashboard": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-  "error_message": "Invalid credentials",
-  "error_input": "Required"
+  "url_employee": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+  
+  "login": {
+    "error_message_login": "Invalid credentials",
+    "error_input": "Required"
+  }
 }
