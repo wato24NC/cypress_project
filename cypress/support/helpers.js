@@ -2,6 +2,7 @@
 import constants from '../fixtures/constants.json'
 import user from '../fixtures/users.json'
 import loginPage from '../e2e/pages/loginPage'
+import employeePage from '../e2e/pages/PIM/addEmployeePage'
 
 // Données utilitaires
 
@@ -15,6 +16,9 @@ export function navigatePage(url) {
     cy.visit(url);
 }
 
+export function give(selector) {
+    cy.get(selector);
+}
 
 export function verifyUrl(expectedUrl) {
     cy.url().should('eq', expectedUrl);
@@ -38,4 +42,10 @@ export function loginAdmin() {
     loginPage.loginButton().click();
 
     verifyUrl(constants.url_dashboard);
+}
+
+export function navigatePim(){
+    verifyExist(employeePage.menu())
+    employeePage.pimMenu().click()
+    verifyUrl(constants.url_employee)
 }
