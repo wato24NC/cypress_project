@@ -1,0 +1,41 @@
+{
+    "search": {
+    "validEmployeeId": "123",
+    "validEmployeeName": "Barbara Louis",
+    "partialEmployeeName": "Test",
+    "invalidEmployeeId": "ZZ9GTX9",
+    "invalidEmployeeName": "Xyz 2 Abc",
+    "inexistEmployeeId": "cnuisnuicnsi,csd,ioc",
+    "jobTitle": "QA Engineer",
+    "employmentStatus": "Full-Time Permanent",
+    "sub_unit": "Human Resources",
+    "supervisorName": "Devansh Bisht",
+    "invalidSupervisorName": "Linda Jane",
+    "withInclude": "Current and Past Employees",
+    "combination": {
+        "name": "Sara Tencrady",
+        "id": "0103",
+        "supervisor": "Devansh Bisht",
+        "jobTitle": "Payroll Administrator",
+        "status": "",
+        "subUnit": "",
+        "include": "Current Employees Only"
+    },
+    "invalidCombination": {
+        "name": "Sara Tencrady",
+        "id": "0103",
+        "supervisor": "Devansh Bisht",
+        "jobTitle": "Payroll Administrator",
+        "status": "Full-Time Permanent",
+        "subUnit": "Human Resources",
+        "include": "Current Employees Only"
+    }
+    },
+    "message": {
+        "error_result": "No Records Found",
+        "error_id_exist": "Invalid Parameter",
+        "error_input_supervisor": "Invalid",
+        "error_long_name": "Should not exceed 100 characters"
+    }
+
+}

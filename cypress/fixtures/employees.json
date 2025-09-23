@@ -1,0 +1,81 @@
+{
+    "validEmployee": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "employeeId": "123jk"
+    },
+    "emptyEmployee":{},
+    "missingFirstName": {
+        "lastName": "Brown",
+        "employeeId": "1235a"
+    },
+    "missingLastName": {
+        "firstName": "Alice",
+        "employeeId": "1236b"
+    },
+    "duplicateId": {
+        "firstName": "Bob",
+        "lastName": "White",
+        "employeeId": "1234"
+    },
+    "withInvalidPhoto": {
+        "firstName": "Carles",
+        "lastName": "Green",
+        "employeeId": "123jke",
+        "photo": "1.webp"
+    },
+    "missingEmployeeId": {
+        "lastName": "Brown",
+        "firstName": "Alice"
+    },
+    "weakPassword": {
+        "firstName": "Eric",
+        "lastName": "Fox",
+        "employeeId": "123k",
+        "username": "ericgrassfield",
+        "password": "123"
+    },
+    "invalidUsername": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "employeeId": "123k",
+        "username": "momo",
+        "password": "ericgrassfield237"
+    },
+    "withPhoto": {
+        "firstName": "Carl",
+        "lastName": "Green",
+        "employeeId": "12jk",
+        "photo": "13.jpg"
+    },
+    "withLogin": {
+        "firstName": "Diana",
+        "lastName": "Rose",
+        "employeeId": "1234jk",
+        "username": "dianarou",
+        "password": "Test@123"
+    },
+    
+    "duplicateUser": {
+        "firstName": "Frank",
+        "lastName": "Lee",
+        "employeeId": "1235jk",
+        "username": "Admin",
+        "password": "Test@123"
+    },
+    "disableAccountUser": {
+        "firstName": "Frank",
+        "lastName": "Cesar",
+        "employeeId": "35jk",
+        "username": "Admire",
+        "password": "admire123"
+    },
+    "message": {
+        "success": "success",
+        "empty_error": "Required",
+        "error_id": "Employee Id already exists",
+        "error_username": "Should be at least 5 characters",
+        "error_password": "Should have at least 7 characters",
+        "error_confirm_password": "Passwords do not match"
+    }
+}
