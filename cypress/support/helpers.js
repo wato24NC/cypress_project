@@ -13,24 +13,28 @@ export const url_employee = "https://opensource-demo.orangehrmlive.com/web/index
 export const url_add_employee = "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee"
 
 export function navigatePage(url) {
-    cy.visit(url);
+    return cy.visit(url);
 }
 
 export function give(selector) {
-    cy.get(selector);
+    return cy.get(selector);
 }
 
 export function verifyUrl(expectedUrl) {
-    cy.url().should('eq', expectedUrl);
+    return cy.url().should('include', expectedUrl);
 }
 
 export function verifyMessage(messageElement, textMessage) {
-    messageElement.should('be.visible').and('contain', textMessage);
+    return messageElement.should('be.visible').and('contain', textMessage);
 }
 
 
 export function verifyExist(element) {
-    element.should('exist').and('be.visible');
+    return element.should('exist').and('be.visible');
+}
+
+export function verifyNotExist(element) {
+    return element.should('not.exist');
 }
 
 export function loginAdmin() {

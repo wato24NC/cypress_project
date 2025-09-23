@@ -1,0 +1,77 @@
+{
+    "employee": {
+        "id": "E123",
+        "firstName": "John",
+        "middleName": "Michael",
+        "lastName": "Smith",
+        "updatedFirstName": "Johnny",
+        "updatedLastName": "Smithers",
+        "jobTitle": "QA Engineer",
+        "updatedJobTitle": "Senior QA Engineer",
+        "employmentStatus": "Full-Time Permanent",
+        "address": "123 Main Street",
+        "updatedAddress": "456 New Avenue",
+        "phone": "6501234567",
+        "updatedPhone": "6509876543",
+        "email": "john.smith@example.com",
+        "invalidEmail": "john.smith@wrong",
+        "emergencyContact": {
+            "name": "Jane Smith",
+            "updatedName": "Janet Smith",
+            "phone": "6505557777",
+            "updatedPhone": "6504449999"
+            },
+        "attachment": "cypress/fixtures/sample.pdf"
+    },
+    "file": {
+        "1": ""
+    },
+    "comment": "",
+    "personnal_details": {
+        "id": "E123",
+        "other_id": "78e2",
+        "firstName": "John",
+        "middleName": "Michael",
+        "lastName": "Smith",
+        "driver_license_number": "Johnny",
+        "license_expiry_date": "Smithers",
+        "nationality": "QA Engineer",
+        "marital_status": "Senior QA Engineer",
+        "date_birth": "Full-Time Permanent",
+        "gender": "123 Main Street",
+        "blood_type": "456 New Avenue",
+        "test_field": "6501234567",
+        "file_attachement": "cypress/fixtures/sample.pdf",
+        "comment": "john.smith@example.com"
+    },
+    "contact_details": {
+        "address": {
+            "street1": "",
+            "street2": "",
+            "city": "",
+            "province": "",
+            "postal code": "",
+            "country": ""
+        },
+        "telephone": {
+            "home": "",
+            "mobile": "",
+            "work": ""
+        },
+        "email": {
+            "work_email": "",
+            "home_email": ""
+        },
+        "attachment": {
+            "file": "",
+            "comment": ""
+        }
+    },
+    "emergency_contacts": {
+        "name": "",
+        "relationship": "",
+        "homePhone": "",
+        "mobile": "",
+        "workPhone": ""
+    }
+}

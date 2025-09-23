@@ -1,43 +1,33 @@
-# ===============================
-# Node.js
-# ===============================
+# --- Node ---
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
 
-# ===============================
-# Cypress
-# ===============================
-# Vidéos et captures générées automatiquement par Cypress
-cypress/videos/
+# --- Cypress ---
 cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/reports/
 
-# ===============================
-# Allure reports
-# ===============================
-# Le rapport HTML généré (trop lourd pour GitHub)
-allure-report/
+# --- Coverage / Build ---
+coverage/
+dist/
+build/
+out/
 
-# Les résultats bruts peuvent être gardés si besoin
-# sinon décommente la ligne suivante pour les ignorer aussi
-# allure-results/
-
-# ===============================
-# Logs et caches
-# ===============================
+# --- Logs ---
 *.log
-.cache/
+logs/
+debug.log
 
-# ===============================
-# OS spécifiques
-# ===============================
-.DS_Store       # macOS
-Thumbs.db       # Windows
-
-# ===============================
-# IDE / Editeurs
-# ===============================
+# --- IDE / OS ---
 .vscode/
 .idea/
-*.swp
+.DS_Store
+Thumbs.db
+
+# --- Env files ---
+.env
+.env.*
